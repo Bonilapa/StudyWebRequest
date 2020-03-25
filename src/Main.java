@@ -16,9 +16,12 @@ public class Main {
             System.out.println(webRequest.getContent());
             System.out.println(webRequest.getResponseCode());
             System.out.println(webRequest.getAllContent());
+
         }catch (MalformedURLException e){
+
             e.printStackTrace();
         }catch(IOException e){
+
             e.printStackTrace();
         }
     }
